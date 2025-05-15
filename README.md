@@ -1,22 +1,47 @@
-# Sports Dataset
+# ZZQueryLog
 
-**[datasetName]** is a sports dataset based on the query logs from searches on the [zerozero](https://www.zerozero.pt) platform.\
+**ZZQueryLog** is a sports dataset based on the query logs from searches on the [zerozero](https://www.zerozero.pt) platform.\
 **Paper**: [PaperName](https://google.com)
 
 ## Logs Dataset
 
-The logs consist of the user interactions collected between October 2024 and February 2025, corresponding to a total of 150 days. Approximately 1.9 million click log entries were grouped together over the 500 most popular queries, i.e., with the highest number of clicks. The `dataset.csv` file contains the list of queries and corresponding entities with clicks in the following format:
+The logs consist of the user interactions collected between October 2024 and February 2025, corresponding to a total of 150 days. Approximately 1.9 million click log entries were grouped together over the 500 most popular queries, i.e., with the highest number of clicks. The `dataset.json` file contains several JSON objects, each corresponding to a query that contains: query_id, query, locale, total_clicks and results. Each result contains a label, country, type, sport, clicks, average_position. Some entities in the results contain a entitiy_id, which represents their id in Wikidata. An example of a query object can be seen bellow:
 
-| Query   | Locale | Total Clicks | Results (Entity, (Clicks;Average Position)) |
-|---------|--------|--------------|---------------------------------------------|
-| atalanta | pt     | 1592         | Atalanta-Italia-Team-Futebol-Q1886 (1560;1.01), Rui Patrício-Portugal-Player-Futebol-Q294980 (32;2.0) |
+```json
+{
+  "query_id": "q039",
+  "query": "atalanta",
+  "locale": "pt",
+  "total_clicks": 1592,
+  "results": [
+    {
+      "entity_id": "Q1886",
+      "label": "Atalanta",
+      "country": "Italia",
+      "type": "Team",
+      "sport": "Futebol",
+      "clicks": "1560",
+      "average_position": "1.01"
+    },
+    {
+      "entity_id": "Q294980",
+      "label": "Rui Patrício",
+      "country": "Portugal",
+      "type": "Player",
+      "sport": "Futebol",
+      "clicks": "32",
+      "average_position": "2.0"
+    }
+  ]
+}
+```
 
-Where each entity contains the name, country, type of entity, sport and Wikidata ID.
+
 
 
 ## Document Collection
 
-The collection of documents generated from the entities that were possible to be matched in Wikidata. It contains a total of 1593 documents and can be found in JSON format in the file `wikiCollection.json`. Each document represents an entity that can be a player, team, coach or league and contains several fields: ID, title, type, description, country, list of nicknames, aka (represent also known as), list of teams (in the case of players and coaches), league (in the case of teams) and number of participants (in the case of league).
+The collection of documents generated from the entities that were possible to be matched in Wikidata. It contains a total of 1593 documents and can be found in JSON format in the file `wikiCollection.json`. Each document represents an entity that can be a player, team, coach or league and contains several fields according to wikidata formatting: doc_id, wikidata_id, retrieved_at, labels, descriptions, aliases, claims. Each claim contains the id of the corresponding property alongside the value.
 
 
 ## QRels File
