@@ -1,10 +1,13 @@
 # ZZQueryLog
 **ZZQueryLog** is a dataset for evaluating entity-oriented information retrieval in the sports domain. It is built from user query logs collected on the [zerozero.pt](https://www.zerozero.pt) platform and aligned with entity documents extracted from Wikidata.
 This resource includes:
+
 - An aggregated query log with user click data
 - A document collection representing sports-related entities
-- Graded relevance judgments derived from click distributions
+- Graded relevance judgments derived from click distributions    
+
 **Paper**: [TBA]
+
 ---
 ## 📁 Files in the Repository
 | File                               | Description                                                                 |
@@ -72,11 +75,12 @@ Each document corresponds to an entity and includes:
 - `retrieved_at`
 - `labels`, `descriptions`, `aliases` (multi-language)
 - `claims`: key-value property list from Wikidata
+
 Entities include:
-- Teams
-- Players
-- Coaches
-- Competitions
+- `Teams`
+- `Players`
+- `Coaches`
+- `Competitions`
 ---
 ## 3. Relevance Judgments (QRels)
 **File:** `zz_query_log_qrels.txt`
@@ -93,6 +97,7 @@ Graded relevance is derived from the proportion of clicks received by each entit
 ## QRels Generation Script
 **File:** `generate_qrels_from_zz_queries.py`
 This Python script parses the `zz_query_log_queries.json` file and creates the graded qrels in the expected format. You can run it to regenerate or customize the relevance levels.
+
 ---
 ## Example Evaluation
 Using `trec_eval`:
