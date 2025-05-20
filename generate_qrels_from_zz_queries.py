@@ -21,30 +21,21 @@ import json
 with open('zz_query_log_queries.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-newLines = []
+new_lines = []
 
 
 for query in data:
     
     results = query['results'] #entities with clicks for each query
-
     totalClicks = int(query['total_clicks'])
-    rel = 3 #relevance grade
-    ids = []
-    counter = 0
-    for entity in results:
+    seen_ids = set() 
 
-        if 'entity_id' not in entity: #skips entities that did not have a match in Wikidata
+    for rank, entity in enumerate(results):
+        entity_id = entity.get('entity_id')
+        if not entity_id or entity_id in seen_ids: #skips entities that did not have a match in Wikidata or that have a repeated Wikidata ID: players that became coaches are different entities in zerozero but in Wikidata are matched to the same entity
             continue
 
-        #Players that became coaches are different entities in zerozero but in Wikidata are matched to the same entity
-        if entity['entity_id'] in ids:
-            continue
-        else:
-            ids.append(entity['entity_id'])
-
-        newLine = ""
-        newLine += query['query_id'] + " " + str(counter) + " "
+        seen_ids.add(entity_id)
         clicks = int(entity['clicks'])
         clickWeight = round((clicks/totalClicks) * 100,2) #percentage of clicks for each results inside of each query
 
@@ -57,16 +48,11 @@ for query in data:
         else:
             break
 
-        newLine += entity['entity_id'] + " " + str(rel)
-        newLines.append(newLine)
-        counter += 1
+        line = f"{query['query_id']} {rank} {entity_id} {rel}"
+        new_lines.append(line)
 
 #writes lines to qrels file
 with open("zz_query_log_qrels.txt", "w") as qrel_file:
-    for i, line in enumerate(newLines):
-        if i < len(newLines) - 1:
-            qrel_file.write(line + "\n")
-        else:
-            qrel_file.write(line)
+    qrel_file.write("\n".join(new_lines))
 
                 
