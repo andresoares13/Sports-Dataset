@@ -1,3 +1,20 @@
+"""
+Script to generate a TREC-style qrels file from the ZZQueryLog dataset.
+This utility processes query logs containing user interactions and entity clicks,
+and assigns graded relevance levels based on click share thresholds. Entities
+with Wikidata matches are included and grouped per query.
+Relevance levels:
+- 3: ≥ 75% of total clicks
+- 2: ≥ 50% and < 75%
+- 1: ≥ 25% and < 50%
+- 0: < 25% (excluded)
+Input: zz_query_log_queries.json
+Output: zz_query_log_qrels.txt
+Author: André Soares
+Date: May 2025
+"""
+
+
 import json
 
 #Loads the query logs
@@ -14,6 +31,7 @@ for query in data:
     totalClicks = int(query['total_clicks'])
     rel = 3 #relevance grade
     ids = []
+    counter = 0
     for entity in results:
 
         if 'entity_id' not in entity: #skips entities that did not have a match in Wikidata
@@ -26,7 +44,7 @@ for query in data:
             ids.append(entity['entity_id'])
 
         newLine = ""
-        newLine += query['query_id'] + " 0 " 
+        newLine += query['query_id'] + " " + str(counter) + " "
         clicks = int(entity['clicks'])
         clickWeight = round((clicks/totalClicks) * 100,2) #percentage of clicks for each results inside of each query
 
@@ -41,6 +59,7 @@ for query in data:
 
         newLine += entity['entity_id'] + " " + str(rel)
         newLines.append(newLine)
+        counter += 1
 
 #writes lines to qrels file
 with open("zz_query_log_qrels.txt", "w") as qrel_file:
