@@ -1,12 +1,40 @@
 # ZZQueryLog
-
-**ZZQueryLog** is a sports dataset based on the query logs from searches on the [zerozero](https://www.zerozero.pt) platform.\
-**Paper**: [PaperName](https://google.com)
-
-## Logs Dataset
-
-The logs consist of the user interactions collected between October 2024 and February 2025, corresponding to a total of 150 days. Approximately 1.9 million click log entries were grouped together over the 500 most popular queries, i.e., with the highest number of clicks. The `zz_query_log_queries.json` file contains several JSON objects, each corresponding to a query that contains: query_id, query, locale, total_clicks and results. Each result contains a label, country, type, sport, clicks, average_position. Some entities in the results contain a entitiy_id, which represents their id in Wikidata. An example of a query object can be seen bellow:
-
+**ZZQueryLog** is a dataset for evaluating entity-oriented information retrieval in the sports domain. It is built from user query logs collected on the [zerozero.pt](https://www.zerozero.pt) platform and aligned with entity documents extracted from Wikidata.
+This resource includes:
+- An aggregated query log with user click data
+- A document collection representing sports-related entities
+- Graded relevance judgments derived from click distributions
+**Paper**: [TBA]
+---
+## 📁 Files in the Repository
+| File                               | Description                                                                 |
+|------------------------------------|-----------------------------------------------------------------------------|
+| `zz_query_log_queries.json`        | Aggregated query logs with click counts per entity                         |
+| `zz_query_log_documents.json`      | Entity-oriented documents aligned with Wikidata                            |
+| `zz_query_log_qrels.txt`           | Graded relevance judgments (qrels) for evaluation                          |
+| `generate_qrels_from_zz_queries.py`| Script to generate qrels from the query logs                               |
+| `README.md`                        | This documentation file                                                    |
+---
+## 🔍 Dataset Overview
+The dataset spans **150 days** (October 2024–February 2025), comprising:
+- ~1.9 million raw click entries
+- **500 most popular queries**
+- ~1,600 unique entity documents (players, teams, coaches, competitions)
+It is designed to support benchmarking of **entity-oriented retrieval systems**, including dense and hybrid ranking models.
+---
+## 1. Query Logs
+**File:** `zz_query_log_queries.json`
+Each object corresponds to a query + locale pair and contains:
+- `query_id`
+- `query`
+- `locale`
+- `total_clicks`
+- `results`: list of clicked entities, sorted by clicks
+Each result may include:
+- `entity_id` (Wikidata ID)
+- `label`, `country`, `type`, `sport`
+- `clicks`, `average_position`
+### Example:
 ```json
 {
   "query_id": "q039",
@@ -35,21 +63,42 @@ The logs consist of the user interactions collected between October 2024 and Feb
   ]
 }
 ```
-
-
-
-
-## Document Collection
-
-The collection of documents generated from the entities that were possible to be matched in Wikidata. It contains a total of 1593 documents and can be found in JSON format in the file `zz_query_log_documents.json`. Each document represents an entity that can be a player, team, coach or league and contains several fields according to wikidata formatting: doc_id, wikidata_id, retrieved_at, labels, descriptions, aliases, claims. Each claim contains the id of the corresponding property alongside the value.
-
-
-## QRels File
-
-The QRels used can be found in the file `zz_query_log_qrels.txt`. It was generated to be used in trec eval and it uses graded relevance. The file to generated the QRels from the aggregated query logs that contain the click information for every entity in every query can be found in `generate_qrels_from_zz_queries.py`
-Three different levels of relevance were established. The first level, which was the most relevant, represented entities that had between 100 and 75% of the total clicks for a query and was given a value of 3.
-The range of the second level was between 74 and 50%, and was given a value of 2, while the range of the third level was between 49 and 25% and was given a value of 1. Any lower percentage of clicks was deemed irrelevant. The list is organized in the following format:
-
-| Query;Locale   | QueryID | DocumentID | Relevance Score |
-|---------|--------|--------------|---------------------------------------------|
-| academica;pt | 0     | Q243235         | 3 |
+---
+## 2. Document Collection
+**File:** `zz_query_log_documents.json`
+Each document corresponds to an entity and includes:
+- `doc_id` (internal ID)
+- `wikidata_id`
+- `retrieved_at`
+- `labels`, `descriptions`, `aliases` (multi-language)
+- `claims`: key-value property list from Wikidata
+Entities include:
+- Teams
+- Players
+- Coaches
+- Competitions
+---
+## 3. Relevance Judgments (QRels)
+**File:** `zz_query_log_qrels.txt`
+Graded relevance is derived from the proportion of clicks received by each entity per query:
+| Relevance Level      | Click Share (of total query clicks) |
+|----------------------|--------------------------------------|
+| 3 (highly relevant)  | ≥ 75%                                |
+| 2 (moderately relevant) | 50%–74%                           |
+| 1 (somewhat relevant)   | 25%–49%                           |
+| 0 (not relevant)     | < 25% (not included)                |
+Each line is formatted for TREC evaluation tools:
+```
+query;locale   query_id   doc_id   relevance_score
+```
+---
+## QRels Generation Script
+**File:** `generate_qrels_from_zz_queries.py`
+This Python script parses the `zz_query_log_queries.json` file and creates the graded qrels in the expected format. You can run it to regenerate or customize the relevance levels.
+---
+## Example Evaluation
+Using `trec_eval`:
+```bash
+trec_eval -m map -m ndcg zz_query_log_qrels.txt my_run.txt
+```
+---
