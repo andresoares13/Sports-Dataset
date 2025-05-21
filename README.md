@@ -51,8 +51,8 @@ Each result may include:
       "country": "Italia",
       "type": "Team",
       "sport": "Futebol",
-      "clicks": "1560",
-      "average_position": "1.01"
+      "clicks": 1560,
+      "average_position": 1.01
     },
     {
       "entity_id": "Q294980",
@@ -60,8 +60,8 @@ Each result may include:
       "country": "Portugal",
       "type": "Player",
       "sport": "Futebol",
-      "clicks": "32",
-      "average_position": "2.0"
+      "clicks": 32,
+      "average_position": 2.0
     }
   ]
 }
