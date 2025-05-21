@@ -40539,12 +40539,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -46609,12 +46603,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Algeria"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -47712,10 +47700,6 @@
                 "pid": "P106",
                 "value": "association football player"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "member of sports team": {
                 "pid": "P54",
                 "values": [
@@ -47977,10 +47961,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "member of sports team": {
                 "pid": "P54",
@@ -48591,10 +48571,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "member of sports team": {
                 "pid": "P54",
@@ -49545,10 +49521,6 @@
                 "pid": "P106",
                 "value": "association football player"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "member of sports team": {
                 "pid": "P54",
                 "values": [
@@ -49901,12 +49873,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -50066,12 +50032,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -50508,12 +50468,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -50536,10 +50490,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "member of sports team": {
                 "pid": "P54",
@@ -51404,12 +51354,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -52935,10 +52879,6 @@
                 "pid": "P106",
                 "value": "association football player"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "member of sports team": {
                 "pid": "P54",
                 "values": [
@@ -53670,10 +53610,6 @@
                 "pid": "P106",
                 "value": "association football player"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "member of sports team": {
                 "pid": "P54",
                 "values": [
@@ -53718,12 +53654,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -53799,10 +53729,6 @@
                 "pid": "P106",
                 "value": "association football player"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "member of sports team": {
                 "pid": "P54",
                 "values": [
@@ -53857,12 +53783,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -53894,12 +53814,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -53940,12 +53854,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54207,12 +54115,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Croatia"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54244,12 +54146,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54281,12 +54177,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54329,12 +54219,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54366,12 +54250,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Serbia"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54501,10 +54379,6 @@
                 "pid": "P106",
                 "value": "association football player"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "member of sports team": {
                 "pid": "P54",
                 "values": [
@@ -54579,12 +54453,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54653,12 +54521,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54695,12 +54557,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Uruguay"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -54773,12 +54629,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Italy"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55071,12 +54921,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55158,12 +55002,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55354,12 +55192,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Bulgaria"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55439,12 +55271,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55473,12 +55299,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Indonesia"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55509,12 +55329,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55561,12 +55375,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Mozambique"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55702,12 +55510,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Uruguay"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55746,12 +55548,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Greece"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55833,12 +55629,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55869,12 +55659,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Paraguay"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55909,12 +55693,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55946,12 +55724,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Cape Verde"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -55982,12 +55754,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56019,12 +55785,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56112,12 +55872,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56148,12 +55902,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56177,16 +55925,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56361,12 +56099,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Argentina"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56396,12 +56128,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Venezuela"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56428,16 +56154,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56469,16 +56185,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56509,12 +56215,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56648,12 +56348,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56779,12 +56473,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -56920,16 +56608,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "futsal player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57000,12 +56678,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Norway"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57188,12 +56860,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Hungary"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57396,12 +57062,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57490,12 +57150,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57523,16 +57177,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57601,12 +57245,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57637,12 +57275,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Morocco"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57711,16 +57343,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57751,12 +57373,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57791,16 +57407,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57923,16 +57529,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -57968,12 +57564,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Mauritius"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58011,12 +57601,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Colombia"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58098,12 +57682,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Kingdom of the Netherlands"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58184,12 +57762,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58220,12 +57792,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58297,12 +57863,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58429,12 +57989,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Belgium"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58461,10 +58015,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "member of sports team": {
                 "pid": "P54",
@@ -58497,16 +58047,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58544,12 +58084,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58580,12 +58114,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58624,10 +58152,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "member of sports team": {
                 "pid": "P54",
@@ -58703,12 +58227,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58737,12 +58255,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58771,12 +58283,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Panama"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -58804,12 +58310,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -59329,16 +58829,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "association football player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -59366,12 +58856,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Angola"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -59482,12 +58966,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Morocco"
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -61339,16 +60817,6 @@
             "occupation": {
                 "pid": "P106",
                 "value": "futsal player"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "member of sports team": {
-                "pid": "P54",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -61824,10 +61292,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -63369,10 +62833,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -63405,10 +62865,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -63448,10 +62904,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -64273,10 +63725,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -64988,10 +64436,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -65154,10 +64598,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -65322,10 +64762,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -65372,10 +64808,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -65505,10 +64937,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -66923,10 +66351,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -67144,10 +66568,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -67179,10 +66599,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -67984,10 +67400,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -68275,10 +67687,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -68795,10 +68203,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -68951,10 +68355,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -69167,10 +68567,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -69597,10 +68993,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -70295,10 +69687,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -70338,10 +69726,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -71092,10 +70476,6 @@
                 "values": [
                     "The Three Lions"
                 ]
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -71462,10 +70842,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -71497,10 +70873,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -71561,10 +70933,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "France"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -72093,10 +71461,6 @@
                     "Scratch",
                     "Verdeamarela"
                 ]
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -72648,10 +72012,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -72865,10 +72225,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -72891,10 +72247,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -73073,10 +72425,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -73140,10 +72488,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -73170,10 +72514,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -73305,10 +72645,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -73334,10 +72670,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Guyana"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -74474,10 +73806,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -74832,10 +74160,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -74968,10 +74292,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -74993,10 +74313,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Sweden"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75023,10 +74339,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75049,10 +74361,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75582,10 +74890,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75613,10 +74917,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Argentina"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75645,10 +74945,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Brazil"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75702,10 +74998,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75724,10 +75016,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Germany"
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
             }
         }
     },
@@ -75741,16 +75029,7 @@
         "descriptions": {
             "fr": "club de football féminin sénégalais"
         },
-        "claims": {
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
-            "league": {
-                "pid": "P118",
-                "value": ""
-            }
-        }
+        "claims": {}
     },
     {
         "doc_id": "d1542",
@@ -75839,12 +75118,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -75914,12 +75187,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -75955,12 +75222,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -75996,12 +75257,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76035,12 +75290,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76757,12 +76006,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76811,12 +76054,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76853,12 +76090,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76901,12 +76132,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76946,12 +76171,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -76988,12 +76207,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -77029,12 +76242,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -77143,12 +76350,6 @@
             "country of citizenship": {
                 "pid": "P27",
                 "value": "Portugal"
-            },
-            "coach of sports team": {
-                "pid": "P6087",
-                "values": [
-                    ""
-                ]
             }
         }
     },
@@ -77412,10 +76613,6 @@
                 "pid": "P31",
                 "value": "sports league"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "number of participants": {
                 "pid": "P1132",
                 "value": "55"
@@ -77454,10 +76651,6 @@
             "instance of": {
                 "pid": "P31",
                 "value": "sports league"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "number of participants": {
                 "pid": "P1132",
@@ -77563,10 +76756,6 @@
             "instance of": {
                 "pid": "P31",
                 "value": "association football competition"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "number of participants": {
                 "pid": "P1132",
@@ -77681,10 +76870,6 @@
                 "pid": "P31",
                 "value": "international association football national teams competition"
             },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
-            },
             "number of participants": {
                 "pid": "P1132",
                 "value": "24"
@@ -77726,10 +76911,6 @@
             "instance of": {
                 "pid": "P31",
                 "value": "association football competition"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "number of participants": {
                 "pid": "P1132",
@@ -77830,10 +77011,6 @@
             "instance of": {
                 "pid": "P31",
                 "value": "tournament"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "number of participants": {
                 "pid": "P1132",
@@ -78224,10 +77401,6 @@
             "instance of": {
                 "pid": "P31",
                 "value": "association football competition"
-            },
-            "country of citizenship": {
-                "pid": "P27",
-                "value": ""
             },
             "number of participants": {
                 "pid": "P1132",
