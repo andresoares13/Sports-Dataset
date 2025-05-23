@@ -91,7 +91,7 @@ Graded relevance is derived from the proportion of clicks received by each entit
 | 2 (moderately relevant) | 50%–74%                           |
 | 1 (somewhat relevant)   | 25%–49%                           |
 | 0 (not relevant)     | < 25% (not included)                |
-|Each line is formatted for TREC evaluation tools:|```query   query_id   doc_id   relevance_score```|
+|Each line is formatted for TREC evaluation tools:|```query_id   query_rank   doc_id   relevance_score```|
 
 ---
 ## QRels Generation Script
